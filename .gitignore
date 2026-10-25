@@ -1,0 +1,25 @@
+# Binaries and object files
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.o.ur-safe
+
+# Kernel build artifacts
+.*.cmd
+.*.d
+.tmp_versions/
+modules.order
+Module.symvers
+Module.markers
+.cache.mk
+
+# Debugging and temporary
+*.orig
+*~
+*.swp
+*.bak
+
+# Build logs and test outputs
+*.log
